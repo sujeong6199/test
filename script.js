@@ -2,7 +2,6 @@ var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     loop: true,
     centeredSlides: true,
-    loop:true,
     autoplay: {
       delay: 2500,
       disableOnInteraction: false,
@@ -16,6 +15,7 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+  
 let menuMobile = document.querySelector("#menu_mobile");
 let menuIcon = document.querySelector("#menu_icon");
 let menuIconX = document.querySelector("#menu_icon_x");
