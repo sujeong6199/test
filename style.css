@@ -322,17 +322,17 @@ main{
 }
 
 /* brand */
-#brand {
+#brand_text {
   padding: 30px;
 }
 
-#brand h3 {
+#brand_text h3 {
   font-family: 'Kanit', sans-serif;
   letter-spacing: 5px;
   font-weight: 900;
 }
 
-#brand h4 {
+#brand_texth4 {
   font-family: 'Kanit', sans-serif;
   font-weight: 900;
   font-size: 32px;
@@ -340,26 +340,26 @@ main{
   margin-top: 10px;
 }
 
-#brand p {
+#brand_text p {
   font-size: 16px;
   line-height: 24px;
   margin-top: 10px;
 }
 
-/* product */
-#product_wrap{
+#card_wrap{
   padding: 30px;
   display: flex;
   overflow:auto
 }
-.product{
+.card{
   border: 1px solid #e6e6e6;
   margin-right: 30px;
   border-radius: 10px;
   min-width: 200px;
   box-shadow: 3px 3px 3px 3px rgb(201, 200, 200);
+  cursor: pointer;
 }
-.product img{
+.card img{
   width: 100%;
   margin-bottom: 30px;
   display: block;
@@ -368,19 +368,18 @@ main{
   width: 100%;
   min-width: 120px;
 }
-.product_textbox{
+.card_textbox{
   padding: 2vw;
 }
-.product_textbox h4{
+.card_textbox h4{
   margin-top: 10px;
   font-weight: 900;
   font-size: 14px;
-  cursor: pointer;
 }
-.product_textbox h4:hover{
+.card:hover .card_textbox h4{
   text-decoration: underline;
 }
-.product_textbox p{
+.card_textbox p{
   margin-top: 10px;
   font-size: 12px;
   line-height: 16px;
@@ -408,6 +407,7 @@ main{
 }
 #map{
   margin: 30px 0;
+  max-width: 300px;
 }
 #contact p{
   margin-top: 30px;
@@ -523,6 +523,9 @@ main{
   }
   #contact_pc p{
     margin-top: 30px;
+  }
+  #map_pc{
+    max-width: 740px;
   }
   #footer_mo{
     display: none;
