@@ -525,7 +525,7 @@ main{
     margin-top: 30px;
   }
   #map_pc{
-    max-width: 740px;
+    min-width: 740px;
   }
   #footer_mo{
     display: none;
